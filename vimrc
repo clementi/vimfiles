@@ -10,6 +10,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'flazz/vim-colorschemes'
+Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
