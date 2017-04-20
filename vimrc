@@ -5,7 +5,7 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/fzf'
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree'
 
 " Color Schemes
