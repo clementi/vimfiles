@@ -11,10 +11,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'flazz/vim-colorschemes'
 
-" Color Schemes
-
-Plug 'NewProggie/NewProggie-Color-Scheme'
-
 call plug#end()
 
 set ts=4
