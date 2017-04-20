@@ -29,6 +29,9 @@ set bri
 map <F12> :set nu!<CR>
 map <F11> :set cursorline!<CR>
 
+map <C-Tab> :bn<CR>
+map <C-S-Tab> :bp<CR>
+
 " Plugin Options
 
 " Airline
