@@ -32,6 +32,17 @@ map <F11> :set cursorline!<CR>
 map <C-Tab> :bn<CR>
 map <C-S-Tab> :bp<CR>
 
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up> gk
+vnoremap <Down> gj
+vnoremap <Up> gk
+inoremap <Down> <C-o>gj
+inoremap <Up> <C-o>gk
+
 " Plugin Options
 
 " Airline
