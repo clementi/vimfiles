@@ -8,6 +8,8 @@ Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'flazz/vim-colorschemes'
 
 " Color Schemes
 
