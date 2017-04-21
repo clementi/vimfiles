@@ -8,11 +8,22 @@ Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
-Plug 'neovimhaskell/haskell-vim'
-Plug 'flazz/vim-colorschemes'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'scrooloose/nerdcommenter'
+
+" Color Schemes
+
+Plug 'flazz/vim-colorschemes'
+
+" Languages
+
+Plug 'neovimhaskell/haskell-vim'
 
 call plug#end()
+
+filetype plugin on
+
+set nu!
 
 set ts=4
 set sw=4
