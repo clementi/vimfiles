@@ -21,6 +21,10 @@ set lbr
 set ai
 set bri
 
+" Suppress splash
+
+set shortmess+=I
+
 " Keymaps
 
 map <F12> :set nu!<CR>
