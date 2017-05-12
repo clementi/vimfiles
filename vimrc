@@ -57,4 +57,7 @@ let g:airline_powerline_fonts = 1
 
 if executable("ag")
     let g:ackprg = 'ag --vimgrep'
+    cnoreabbrev ag Ack
+else
+    cnoreabbrev ack Ack
 endif
