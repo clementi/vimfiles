@@ -18,6 +18,7 @@ Plug 'flazz/vim-colorschemes'
 " Languages
 
 Plug 'neovimhaskell/haskell-vim'
+Plug 'glench/Vim-Jinja2-Syntax'
 
 call plug#end()
 
