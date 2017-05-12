@@ -10,6 +10,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/nerdcommenter'
+Plug 'mileszs/ack.vim'
 
 " Color Schemes
 
@@ -52,4 +53,8 @@ map <C-S-Tab> :bp<CR>
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
+" Ack.vim
 
+if executable("ag")
+    let g:ackprg = 'ag --vimgrep'
+endif
