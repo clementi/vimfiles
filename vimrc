@@ -61,3 +61,7 @@ if executable("ag")
 else
     cnoreabbrev ack Ack
 endif
+
+" Editorconfig-vim
+
+let g:EditorConfig_core_mode = 'python_external'
