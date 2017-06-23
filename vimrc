@@ -20,6 +20,7 @@ Plug 'flazz/vim-colorschemes'
 
 Plug 'neovimhaskell/haskell-vim'
 Plug 'glench/Vim-Jinja2-Syntax'
+Plug 'PProvost/vim-ps1'
 
 call plug#end()
 
