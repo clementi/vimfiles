@@ -64,6 +64,10 @@ else
     cnoreabbrev ack Ack
 endif
 
+" Directories
+set backupdir=$TEMP,$TMP,.
+set directory=$TEMP,$TMP,.
+
 " Editorconfig-vim
 
 let g:EditorConfig_core_mode = 'python_external'
