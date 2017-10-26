@@ -23,6 +23,7 @@ Plug 'neovimhaskell/haskell-vim'
 Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
 Plug 'dart-lang/dart-vim-plugin'
+Plug 'hashivim/vim-terraform'
 
 call plug#end()
 
