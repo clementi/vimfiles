@@ -7,9 +7,10 @@ Plug 'junegunn/fzf'
 Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'scrooloose/nerdcommenter'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
 
@@ -24,6 +25,8 @@ Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'hashivim/vim-terraform'
+Plug 'zah/nim.vim'
+Plug 'fsharp/vim-fsharp'
 
 call plug#end()
 
