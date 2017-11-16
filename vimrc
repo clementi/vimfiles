@@ -39,7 +39,11 @@ set sw=4
 set et
 set lbr
 set ai
-set bri
+
+try
+    set bri
+catch
+endtry
 
 " Suppress splash
 
