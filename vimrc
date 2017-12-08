@@ -27,6 +27,8 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'hashivim/vim-terraform'
 Plug 'zah/nim.vim'
 Plug 'fsharp/vim-fsharp'
+Plug 'elixir-editors/vim-elixir'
+Plug 'slashmili/alchemist.vim'
 
 call plug#end()
 
