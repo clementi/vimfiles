@@ -27,12 +27,23 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'hashivim/vim-terraform'
 Plug 'zah/nim.vim'
 Plug 'fsharp/vim-fsharp'
+Plug 'jason0x43/vim-js-indent'
+
+"" Elixir
+
 Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
+
+"" Typescript
+
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi'
+Plug 'Quramy/vim-js-pretty-template'
 
 call plug#end()
 
 filetype plugin on
+set omnifunc=syntaxComplete#Complete
 
 set nu!
 
