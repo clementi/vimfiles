@@ -34,6 +34,10 @@ Plug 'jason0x43/vim-js-indent'
 Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 
+"" Erlang
+
+Plug 'vim-erlang/vim-erlang-omnicomplete'
+
 "" Typescript
 
 Plug 'leafgarland/typescript-vim'
