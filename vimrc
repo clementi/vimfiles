@@ -17,6 +17,7 @@ Plug 'tpope/vim-endwise'
 " Color Schemes
 
 Plug 'flazz/vim-colorschemes'
+Plug 'chriskempson/base16-vim'
 
 " Languages
 
