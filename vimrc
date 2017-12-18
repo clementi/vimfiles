@@ -58,11 +58,9 @@ catch
 endtry
 
 " Suppress splash
-
 set shortmess+=I
 
 " Keymaps
-
 map <F12> :set nu!<CR>
 map <F11> :set cursorline!<CR>
 
@@ -71,13 +69,11 @@ map <C-S-Tab> :bp!<CR>
 
 " Plugin Options
 
-" Airline
-
+"" Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
-" Ack.vim
-
+"" Ack.vim
 if executable("ag")
     let g:ackprg = 'ag --vimgrep'
     cnoreabbrev ag Ack
@@ -90,7 +86,6 @@ set backupdir=$TEMP,$TMP,.
 set directory=$TEMP,$TMP,.
 
 " Editorconfig-vim
-
 let g:EditorConfig_core_mode = 'python_external'
 
 if !has("gui_running")
