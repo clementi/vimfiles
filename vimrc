@@ -81,6 +81,10 @@ else
     cnoreabbrev ack Ack
 endif
 
+"" NERDTree
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+
 " Directories
 set backupdir=$TEMP,$TMP,.
 set directory=$TEMP,$TMP,.
