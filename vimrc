@@ -1,7 +1,6 @@
 call plug#begin()
 
 " Tools & Settings
-
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/fzf'
 Plug 'tpope/vim-surround'
@@ -15,12 +14,10 @@ Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
 
 " Color Schemes
-
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
 
 " Languages
-
 Plug 'neovimhaskell/haskell-vim'
 Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
@@ -31,16 +28,13 @@ Plug 'fsharp/vim-fsharp'
 Plug 'jason0x43/vim-js-indent'
 
 "" Elixir
-
 Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 
 "" Erlang
-
 Plug 'vim-erlang/vim-erlang-omnicomplete'
 
 "" Typescript
-
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'Quramy/vim-js-pretty-template'
