@@ -26,6 +26,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'zah/nim.vim'
 Plug 'fsharp/vim-fsharp'
 Plug 'jason0x43/vim-js-indent'
+Plug 'clementi/pure-vim'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
