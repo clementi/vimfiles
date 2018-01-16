@@ -27,6 +27,7 @@ Plug 'zah/nim.vim'
 Plug 'fsharp/vim-fsharp'
 Plug 'pangloss/vim-javascript'
 Plug 'clementi/pure-vim'
+Plug 'JuliaEditorSupport/julia-vim'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
