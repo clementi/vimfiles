@@ -25,7 +25,7 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'hashivim/vim-terraform'
 Plug 'zah/nim.vim'
 Plug 'fsharp/vim-fsharp'
-Plug 'jason0x43/vim-js-indent'
+Plug 'pangloss/vim-javascript'
 Plug 'clementi/pure-vim'
 
 "" Elixir
