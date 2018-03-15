@@ -28,6 +28,7 @@ Plug 'fsharp/vim-fsharp'
 Plug 'pangloss/vim-javascript'
 Plug 'clementi/pure-vim'
 Plug 'JuliaEditorSupport/julia-vim'
+Plug 'ryym/vim-riot'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
