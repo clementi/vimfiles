@@ -46,7 +46,7 @@ Plug 'Quramy/vim-js-pretty-template'
 
 call plug#end()
 
-filetype plugin on
+filetype plugin indent on
 set omnifunc=syntaxComplete#Complete
 
 set nu!
