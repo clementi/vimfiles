@@ -12,6 +12,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
+Plug 'Shougo/vimshell.vim'
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
@@ -29,6 +30,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'clementi/pure-vim'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'ryym/vim-riot'
+Plug 'idris-hackers/idris-vim'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
