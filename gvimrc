@@ -2,7 +2,7 @@ if has('win32')
     set guifont=Consolas:h10.2
 endif
 
-colors spacegray
+colors PaperColor
 
 set guioptions-=m
 set guioptions-=T
