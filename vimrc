@@ -31,6 +31,8 @@ Plug 'clementi/pure-vim'
 Plug 'JuliaEditorSupport/julia-vim'
 Plug 'ryym/vim-riot'
 Plug 'idris-hackers/idris-vim'
+Plug 'the-lambda-church/coquille'
+Plug 'kchmck/vim-coffee-script'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
@@ -46,6 +48,7 @@ Plug 'Quramy/vim-js-pretty-template'
 
 call plug#end()
 
+syntax on
 filetype plugin indent on
 set omnifunc=syntaxComplete#Complete
 
