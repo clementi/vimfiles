@@ -33,6 +33,7 @@ Plug 'ryym/vim-riot'
 Plug 'idris-hackers/idris-vim'
 Plug 'the-lambda-church/coquille'
 Plug 'kchmck/vim-coffee-script'
+Plug 'wlangstroth/vim-racket'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
