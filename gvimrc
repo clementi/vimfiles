@@ -1,5 +1,7 @@
 if has('win32')
-    set guifont=Consolas:h10.2
+  set guifont=Consolas:h10.2
+else
+  set guifont=monospace\ 11
 endif
 
 set background=dark
