@@ -34,6 +34,7 @@ Plug 'idris-hackers/idris-vim'
 Plug 'the-lambda-church/coquille'
 Plug 'kchmck/vim-coffee-script'
 Plug 'wlangstroth/vim-racket'
+Plug 'rgrinberg/vim-ocaml'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
