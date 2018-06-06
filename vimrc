@@ -13,6 +13,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
 Plug 'Shougo/vimshell.vim'
+Plug 'jiangmiao/auto-pairs'
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
