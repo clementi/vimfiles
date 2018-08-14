@@ -36,6 +36,7 @@ Plug 'the-lambda-church/coquille'
 Plug 'kchmck/vim-coffee-script'
 Plug 'wlangstroth/vim-racket'
 Plug 'rgrinberg/vim-ocaml'
+Plug 'fatih/vim-go'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
