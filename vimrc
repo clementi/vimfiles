@@ -37,6 +37,7 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'wlangstroth/vim-racket'
 Plug 'rgrinberg/vim-ocaml'
 Plug 'fatih/vim-go'
+Plug 'tomlion/vim-solidity'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
