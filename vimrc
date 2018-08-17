@@ -14,6 +14,8 @@ Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
 Plug 'Shougo/vimshell.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'ervandew/supertab'
+Plug 'vim-scripts/AutoComplPop'
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
@@ -56,6 +58,7 @@ call plug#end()
 syntax on
 filetype plugin indent on
 set omnifunc=syntaxComplete#Complete
+set completeopt=longest,menuone
 
 set nu!
 
