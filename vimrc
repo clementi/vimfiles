@@ -13,9 +13,9 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
 Plug 'Shougo/vimshell.vim'
-Plug 'jiangmiao/auto-pairs'
-Plug 'ervandew/supertab'
-Plug 'vim-scripts/AutoComplPop'
+"Plug 'jiangmiao/auto-pairs'
+"Plug 'ervandew/supertab'
+"Plug 'vim-scripts/AutoComplPop'
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
@@ -27,30 +27,30 @@ Plug 'neovimhaskell/haskell-vim'
 Plug 'PProvost/vim-ps1'
 "Plug 'dart-lang/dart-vim-plugin'
 "Plug 'hashivim/vim-terraform'
-Plug 'zah/nim.vim'
+"Plug 'zah/nim.vim'
 Plug 'fsharp/vim-fsharp'
 Plug 'pangloss/vim-javascript'
 "Plug 'clementi/pure-vim'
 "Plug 'JuliaEditorSupport/julia-vim'
-Plug 'ryym/vim-riot'
+"Plug 'ryym/vim-riot'
 "Plug 'idris-hackers/idris-vim'
 "Plug 'the-lambda-church/coquille'
 "Plug 'kchmck/vim-coffee-script'
 "Plug 'wlangstroth/vim-racket'
-Plug 'rgrinberg/vim-ocaml'
+"Plug 'rgrinberg/vim-ocaml'
 Plug 'fatih/vim-go'
 Plug 'tomlion/vim-solidity'
-Plug 'keith/swift.vim'
-Plug 'posva/vim-vue'
-Plug 'mxw/vim-jsx'
-Plug 'mustache/vim-mustache-handlebars'
+"Plug 'keith/swift.vim'
+"Plug 'posva/vim-vue'
+"Plug 'mxw/vim-jsx'
+"Plug 'mustache/vim-mustache-handlebars'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
 Plug 'slashmili/alchemist.vim'
 
 "" Erlang
-Plug 'vim-erlang/vim-erlang-omnicomplete'
+"Plug 'vim-erlang/vim-erlang-omnicomplete'
 
 "" Typescript
 Plug 'leafgarland/typescript-vim'
@@ -61,8 +61,8 @@ call plug#end()
 
 syntax on
 filetype plugin indent on
-set omnifunc=syntaxComplete#Complete
-set completeopt=longest,menuone
+"set omnifunc=syntaxComplete#Complete
+"set completeopt=longest,menuone
 
 set nu!
 
