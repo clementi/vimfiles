@@ -20,6 +20,7 @@ Plug 'vim-scripts/AutoComplPop'
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'

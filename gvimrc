@@ -7,7 +7,7 @@ else
 endif
 
 set background=dark
-colors PaperColor
+colors onehalfdark
 
 set guioptions-=m
 set guioptions-=T
