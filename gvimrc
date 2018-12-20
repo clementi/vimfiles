@@ -1,7 +1,7 @@
 if has('win32')
   set guifont=Consolas:h10.2
 elseif has('macunix')
-  set guifont=Menlo:h12
+  set guifont=Menlo:h13
 else
   set guifont=monospace\ 11
 endif
