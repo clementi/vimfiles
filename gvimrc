@@ -1,9 +1,9 @@
 if has('win32')
-  set guifont=Consolas:h10.2
+  set guifont=IBM_Plex_Mono:h10.2,Consolas:h10.2
 elseif has('macunix')
-  set guifont=Menlo:h13
+  set guifont=IBM_Plex_Mono:h13,Menlo:h13
 else
-  set guifont=monospace\ 11
+  set guifont=IBM\ Plex\ Mono\ 13,monospace\ 11
 endif
 
 set background=dark
