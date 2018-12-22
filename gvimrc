@@ -1,5 +1,5 @@
 if has('win32')
-  set guifont=IBM_Plex_Mono:h10.2,Consolas:h10.2
+  set guifont=IBM_Plex_Mono:h10,Consolas:h10.2
 elseif has('macunix')
   set guifont=IBM_Plex_Mono:h13,Menlo:h13
 else
