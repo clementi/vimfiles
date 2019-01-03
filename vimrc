@@ -154,5 +154,5 @@ func! DeleteCurBufferNotCloseWindow() abort
     endif
 endfunc
 
-"" Mac-specific stuff
+" Mac-specific stuff
 autocmd VimLeave * macaction terminate:
