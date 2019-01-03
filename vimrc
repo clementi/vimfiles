@@ -153,3 +153,6 @@ func! DeleteCurBufferNotCloseWindow() abort
         exec oldwin 'wincmd w'
     endif
 endfunc
+
+"" Mac-specific stuff
+autocmd VimLeave * macaction terminate:
