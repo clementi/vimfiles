@@ -21,6 +21,11 @@ Plug 'vim-scripts/AutoComplPop'
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'rakr/vim-one'
+Plug 'mhartington/oceanic-next'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
@@ -116,6 +121,9 @@ let g:EditorConfig_core_mode = 'python_external'
 if !has("gui_running")
     set background=dark
 endif
+
+" Go
+let g:go_version_warning=0
 
 " Close buffer without destroying any splits
 
