@@ -163,6 +163,6 @@ func! DeleteCurBufferNotCloseWindow() abort
 endfunc
 
 " Mac-specific stuff
-if has('macunix')
+if has('macunix') && has('gui_running')
     autocmd VimLeave * macaction terminate:
 endif
