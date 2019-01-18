@@ -27,6 +27,8 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'rakr/vim-one'
 Plug 'mhartington/oceanic-next'
 Plug 'Nequo/vim-allomancer'
+Plug 'kamykn/skyhawk'
+Plug 'kamykn/skyknight'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
