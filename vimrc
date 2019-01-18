@@ -26,6 +26,7 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'rakr/vim-one'
 Plug 'mhartington/oceanic-next'
+Plug 'Nequo/vim-allomancer'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
