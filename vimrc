@@ -41,7 +41,7 @@ Plug 'pangloss/vim-javascript'
 "Plug 'ryym/vim-riot'
 "Plug 'idris-hackers/idris-vim'
 "Plug 'the-lambda-church/coquille'
-"Plug 'kchmck/vim-coffee-script'
+Plug 'kchmck/vim-coffee-script'
 "Plug 'wlangstroth/vim-racket'
 "Plug 'rgrinberg/vim-ocaml'
 Plug 'fatih/vim-go'
@@ -161,6 +161,12 @@ func! DeleteCurBufferNotCloseWindow() abort
         exec oldwin 'wincmd w'
     endif
 endfunc
+
+" Eliminate usage of the arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 
 " Mac-specific stuff
 if has('macunix') && has('gui_running')
