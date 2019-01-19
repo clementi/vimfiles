@@ -132,6 +132,11 @@ let g:go_version_warning=0
 
 nnoremap <Leader>b :call DeleteCurBufferNotCloseWindow()<CR>
 
+" Run file in buffer
+
+nnoremap <F9> :!"%:p"<CR>
+nnoremap <leader>r :!"%:p"<CR>
+
 func! DeleteCurBufferNotCloseWindow() abort
     if &modified
         echohl ErrorMsg
