@@ -9,7 +9,7 @@ else
 endif
 
 set background=dark
-colors PaperColor
+colors cosmic_latte
 
 set guioptions-=m
 set guioptions-=T

@@ -8,7 +8,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/syntastic'
-Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
@@ -29,6 +30,7 @@ Plug 'mhartington/oceanic-next'
 Plug 'Nequo/vim-allomancer'
 Plug 'kamykn/skyhawk'
 Plug 'kamykn/skyknight'
+Plug 'nightsense/cosmic_latte'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
@@ -99,8 +101,11 @@ map <C-S-Tab> :bp!<CR>
 " Plugin Options
 
 "" Airline
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 0
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline_powerline_fonts = 0
+
+"" Lightline
+set noshowmode
 
 "" Ack.vim
 if executable("ag")
