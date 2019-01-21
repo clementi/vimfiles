@@ -17,6 +17,7 @@ Plug 'Shougo/vimshell.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'vim-scripts/AutoComplPop'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
