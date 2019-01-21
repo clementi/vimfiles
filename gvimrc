@@ -5,7 +5,7 @@ elseif has('macunix')
     set guifont=Menlo:h13
   endif
 else
-  set guifont=Meslo\ LG\ S\ 11,monospace\ 11
+  set guifont=Meslo\ LG\ S\ 10,monospace\ 10
 endif
 
 set background=dark
