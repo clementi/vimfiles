@@ -8,8 +8,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/syntastic'
-"Plug 'vim-airline/vim-airline'
-Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
+"Plug 'itchyny/lightline.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-endwise'
@@ -101,11 +101,11 @@ map <C-S-Tab> :bp!<CR>
 " Plugin Options
 
 "" Airline
-"let g:airline#extensions#tabline#enabled = 1
-"let g:airline_powerline_fonts = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 0
 
 "" Lightline
-set noshowmode
+"set noshowmode
 
 "" Ack.vim
 if executable("ag")
@@ -180,6 +180,12 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+" Colors
+if has("nvim")
+    set background=dark
+    colors cosmic_latte
+endif
 
 " Mac-specific stuff
 if has('macunix') && has('gui_running')
