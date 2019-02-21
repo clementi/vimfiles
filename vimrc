@@ -19,7 +19,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'neomake/neomake'
+"Plug 'neomake/neomake'
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
@@ -37,7 +37,7 @@ Plug 'nightsense/cosmic_latte'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
-Plug 'parsonsmatt/intero-neovim'
+"Plug 'parsonsmatt/intero-neovim'
 "Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
 "Plug 'dart-lang/dart-vim-plugin'
@@ -92,6 +92,8 @@ try
 catch
 endtry
 
+"set listchars=tab:>\ ,trail:-,eol:$
+
 " Suppress splash
 set shortmess+=I
 
@@ -100,6 +102,7 @@ map <F12> :set nu!<CR>
 map <leader>n :set nu!<CR>
 map <F11> :set cursorline!<CR>
 map <leader>l :set cursorline!<CR>
+"map <leader>h :set list!<CR>
 
 map <C-Tab> :bn!<CR>
 map <C-S-Tab> :bp!<CR>
@@ -125,6 +128,7 @@ endif
 "" NERDTree
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
+map <C-n> :NERDTreeToggle<CR>
 
 " Directories
 set backupdir=$TEMP,$TMP,.
@@ -171,8 +175,7 @@ augroup interMaps
     au FileType haskell nnoremap <leader>ist :InteroSetTargets<SPACE>
 augroup END
 
-let g:intero_type_on_hover = 1
-set updatetime=1000
+let g:intero_type_on_hover=0
 
 " Go
 let g:go_version_warning=0
