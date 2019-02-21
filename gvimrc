@@ -13,6 +13,7 @@ colors cosmic_latte
 
 set guioptions-=m
 set guioptions-=T
+set guioptions=
 
 set lines=50
 set columns=120

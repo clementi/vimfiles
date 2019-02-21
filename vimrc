@@ -5,6 +5,7 @@ Plug 'tpope/vim-sensible'
 Plug 'junegunn/fzf'
 Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/syntastic'
@@ -96,7 +97,9 @@ set shortmess+=I
 
 " Keymaps
 map <F12> :set nu!<CR>
+map <leader>n :set nu!<CR>
 map <F11> :set cursorline!<CR>
+map <leader>l :set cursorline!<CR>
 
 map <C-Tab> :bn!<CR>
 map <C-S-Tab> :bp!<CR>
@@ -106,6 +109,7 @@ map <C-S-Tab> :bp!<CR>
 "" Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0
+set noshowmode
 
 "" Lightline
 "set noshowmode
