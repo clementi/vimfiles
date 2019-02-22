@@ -19,7 +19,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'ctrlpvim/ctrlp.vim'
-"Plug 'neomake/neomake'
+Plug 'neomake/neomake'
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
@@ -37,8 +37,8 @@ Plug 'nightsense/cosmic_latte'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
-Plug 'ndmitchell/ghcid', { 'rtp': 'plugins/nvim' }
-"Plug 'parsonsmatt/intero-neovim'
+"Plug 'ndmitchell/ghcid', { 'rtp': 'plugins/nvim' }
+Plug 'parsonsmatt/intero-neovim'
 "Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
 "Plug 'dart-lang/dart-vim-plugin'
@@ -143,38 +143,38 @@ if !has("gui_running")
 endif
 
 " intero-neovimhaskell
-"augroup interMaps
-    "au!
+augroup interMaps
+    au!
 
-    "" Background processes and window management
-    "au FileType haskell nnoremap <silent> <leader>is :InteroStart<CR>
-    "au FileType haskell nnoremap <silent> <leader>ik :InteroKill<CR>
+    " Background processes and window management
+    au FileType haskell nnoremap <silent> <leader>is :InteroStart<CR>
+    au FileType haskell nnoremap <silent> <leader>ik :InteroKill<CR>
 
-    "" Open intero/ghci split horizontally
-    "au FileType haskell nnoremap <silent> <leader>io :InteroOpen<CR>
-    "" Open intero/ghci split vertically
-    "au FileType haskell nnoremap <silent> <leader>iov :InteroOpen<CR><C-W>H
-    "au FileType haskell nnoremap <silent> <leader>ih :InteroHide<CR>
+    " Open intero/ghci split horizontally
+    au FileType haskell nnoremap <silent> <leader>io :InteroOpen<CR>
+    " Open intero/ghci split vertically
+    au FileType haskell nnoremap <silent> <leader>iov :InteroOpen<CR><C-W>H
+    au FileType haskell nnoremap <silent> <leader>ih :InteroHide<CR>
 
-    "" Reloading
-    "au BufWritePost *.hs InteroReload
+    " Reloading
+    au BufWritePost *.hs InteroReload
 
-    "" Load individual modules
-    "au FileType haskell nnoremap <silent> <leader>il :InteroLoadCurrentModule<CR>
-    "au FileType haskell nnoremap <silent> <leader>if :InteroLoadCurrentFile<CR>
+    " Load individual modules
+    au FileType haskell nnoremap <silent> <leader>il :InteroLoadCurrentModule<CR>
+    au FileType haskell nnoremap <silent> <leader>if :InteroLoadCurrentFile<CR>
 
-    "" Type information
-    "au FileType haskell map <silent> <leader>t <Plug>InteroGenericType
-    "au FileType haskell map <silent> <leader>T <Plug>InteroType
-    "au FileType haskell nnoremap <silent> <leader>it :InteroTypeInsert<CR>
+    " Type information
+    au FileType haskell map <silent> <leader>t <Plug>InteroGenericType
+    au FileType haskell map <silent> <leader>T <Plug>InteroType
+    au FileType haskell nnoremap <silent> <leader>it :InteroTypeInsert<CR>
     
-    "" Navigation
-    "au FileType haskell nnoremap <silent> <leader>jd :InteroGoToDef<CR>
+    " Navigation
+    au FileType haskell nnoremap <silent> <leader>jd :InteroGoToDef<CR>
 
-    "" Managing targets
-    "" Prompts you to enter targets (no silent):
-    "au FileType haskell nnoremap <leader>ist :InteroSetTargets<SPACE>
-"augroup END
+    " Managing targets
+    " Prompts you to enter targets (no silent):
+    au FileType haskell nnoremap <leader>ist :InteroSetTargets<SPACE>
+augroup END
 
 "let g:intero_type_on_hover=0
 
