@@ -39,6 +39,7 @@ Plug 'nightsense/cosmic_latte'
 Plug 'neovimhaskell/haskell-vim'
 "Plug 'ndmitchell/ghcid', { 'rtp': 'plugins/nvim' }
 Plug 'parsonsmatt/intero-neovim'
+"Plug 'alx741/vim-hindent'
 "Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
 "Plug 'dart-lang/dart-vim-plugin'
