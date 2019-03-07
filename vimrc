@@ -104,6 +104,7 @@ map <F12> :set nu!<CR>
 map <leader>n :set nu!<CR>
 map <F11> :set cursorline!<CR>
 map <leader>l :set cursorline!<CR>
+map <leader>p :w!!pf<CR>
 "map <leader>h :set list!<CR>
 
 map <C-Tab> :bn!<CR>
