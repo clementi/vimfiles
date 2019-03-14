@@ -16,5 +16,7 @@ set guioptions-=m
 set guioptions-=T
 set guioptions=
 
-set lines=50
-set columns=120
+if !has("gui_vimr")
+  set lines=50
+  set columns=120
+endif
