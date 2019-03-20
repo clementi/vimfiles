@@ -8,7 +8,7 @@ elseif has('macunix')
 endif
 
 set background=dark
-colors cosmic_latte
+colors PaperColor
 
 set guioptions-=m
 set guioptions-=T
