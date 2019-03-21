@@ -19,7 +19,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'neomake/neomake'
+if has('nvim') && !has('win32')
+  Plug 'neomake/neomake'
+endif
 
 " Color Schemes
 Plug 'flazz/vim-colorschemes'
@@ -38,7 +40,9 @@ Plug 'nightsense/cosmic_latte'
 " Languages
 Plug 'neovimhaskell/haskell-vim'
 "Plug 'ndmitchell/ghcid', { 'rtp': 'plugins/nvim' }
-Plug 'parsonsmatt/intero-neovim'
+if has('nvim') && !has('win32')
+  Plug 'parsonsmatt/intero-neovim'
+endif
 "Plug 'alx741/vim-hindent'
 "Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
