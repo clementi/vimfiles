@@ -36,6 +36,13 @@ Plug 'Nequo/vim-allomancer'
 Plug 'kamykn/skyhawk'
 Plug 'kamykn/skyknight'
 Plug 'nightsense/cosmic_latte'
+Plug 'sainnhe/vim-color-forest-night'
+Plug 'yous/vim-open-color'
+Plug 'ntk148v/vim-horizon'
+Plug 'liuchengxu/space-vim-theme'
+"Plug 'srushti/my.vim'
+Plug 'maksimr/Lucius2'
+Plug 'vim-scripts/Ambient-Color-Scheme'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
@@ -236,7 +243,7 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 
 " Colors
-if has("nvim")
+if has("nvim") || has('gui')
     set background=dark
     colors PaperColor
 endif

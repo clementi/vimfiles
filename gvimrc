@@ -7,9 +7,6 @@ elseif has('macunix')
   set linespace=2
 endif
 
-set background=dark
-colors PaperColor
-
 set guioptions-=m
 set guioptions-=T
 set guioptions=
