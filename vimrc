@@ -43,6 +43,7 @@ Plug 'liuchengxu/space-vim-theme'
 "Plug 'srushti/my.vim'
 Plug 'maksimr/Lucius2'
 Plug 'vim-scripts/Ambient-Color-Scheme'
+Plug 'tjammer/blayu.vim'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
