@@ -19,7 +19,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'ctrlpvim/ctrlp.vim'
-"Plug 'mattn/emmet-vim'
+Plug 'mattn/emmet-vim'
 if has('nvim') && !has('win32')
   Plug 'neomake/neomake'
 endif
