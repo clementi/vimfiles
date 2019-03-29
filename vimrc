@@ -202,7 +202,7 @@ augroup interMaps
     au FileType haskell nnoremap <leader>ist :InteroSetTargets<SPACE>
 augroup END
 
-"let g:intero_type_on_hover=0
+let g:intero_type_on_hover=1
 
 " Go
 let g:go_version_warning=0
