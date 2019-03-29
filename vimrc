@@ -203,7 +203,7 @@ augroup interMaps
 augroup END
 
 "let g:intero_type_on_hover=0
-
+let g:intero_start_immediately=0
 " Go
 let g:go_version_warning=0
 
