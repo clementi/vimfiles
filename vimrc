@@ -74,6 +74,7 @@ Plug 'tomlion/vim-solidity'
 "Plug 'posva/vim-vue'
 "Plug 'mxw/vim-jsx'
 "Plug 'mustache/vim-mustache-handlebars'
+Plug 'tpope/vim-cucumber'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
