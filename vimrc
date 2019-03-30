@@ -44,6 +44,8 @@ Plug 'liuchengxu/space-vim-theme'
 Plug 'maksimr/Lucius2'
 Plug 'vim-scripts/Ambient-Color-Scheme'
 Plug 'tjammer/blayu.vim'
+Plug 'Heorhiy/VisualStudioDark.vim'
+Plug 'sts10/vim-pink-moon'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
