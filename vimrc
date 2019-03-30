@@ -19,6 +19,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mattn/emmet-vim'
 if has('nvim') && !has('win32')
   Plug 'neomake/neomake'
 endif
@@ -75,6 +76,7 @@ Plug 'tomlion/vim-solidity'
 "Plug 'posva/vim-vue'
 "Plug 'mxw/vim-jsx'
 "Plug 'mustache/vim-mustache-handlebars'
+Plug 'tpope/vim-cucumber'
 
 "" Elixir
 Plug 'elixir-editors/vim-elixir'
@@ -125,6 +127,17 @@ map <C-Tab> :bn!<CR>
 map <C-S-Tab> :bp!<CR>
 
 " Plugin Options
+
+"" Syntastic
+function! ToggleErrors()
+    let old_last_winnr = winnr('$')
+    lclose
+    if old_last_winnr == winnr('$')
+        " Nothing was closed, so open Syntastic error location panel
+        Errors
+    endif
+endfunction
+nnoremap <silent> <leader>e :call ToggleErrors()<CR>
 
 "" Airline
 let g:airline#extensions#tabline#enabled = 1
@@ -192,7 +205,8 @@ augroup interMaps
     au FileType haskell nnoremap <leader>ist :InteroSetTargets<SPACE>
 augroup END
 
-"let g:intero_type_on_hover=0
+let g:intero_type_on_hover=1
+let g:intero_start_immediately=0
 
 " Go
 let g:go_version_warning=0
