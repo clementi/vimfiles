@@ -25,7 +25,7 @@ if has('nvim') && !has('win32')
 endif
 
 " Color Schemes
-Plug 'rainglow/vim'
+"Plug 'rainglow/vim'
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
@@ -263,7 +263,7 @@ noremap <Right> <Nop>
 " Colors
 if has("nvim") || has('gui')
     set background=dark
-    colors gloom-contrast
+    colors PaperColor
 endif
 
 " Mac-specific stuff
