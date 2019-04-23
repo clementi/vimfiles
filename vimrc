@@ -20,9 +20,9 @@ Plug 'ervandew/supertab'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
-if has('nvim') && !has('win32')
-  Plug 'neomake/neomake'
-endif
+"if has('nvim') && !has('win32')
+  "Plug 'neomake/neomake'
+"endif
 
 " Color Schemes
 "Plug 'rainglow/vim'
@@ -48,13 +48,15 @@ Plug 'vim-scripts/Ambient-Color-Scheme'
 Plug 'tjammer/blayu.vim'
 Plug 'Heorhiy/VisualStudioDark.vim'
 Plug 'sts10/vim-pink-moon'
+Plug 'chase/focuspoint-vim'
+Plug 'aonemd/kuroi.vim'
 
 " Languages
 Plug 'neovimhaskell/haskell-vim'
 "Plug 'ndmitchell/ghcid', { 'rtp': 'plugins/nvim' }
-if has('nvim') && !has('win32')
-  Plug 'parsonsmatt/intero-neovim'
-endif
+"if has('nvim') && !has('win32')
+  "Plug 'parsonsmatt/intero-neovim'
+"endif
 "Plug 'alx741/vim-hindent'
 "Plug 'glench/Vim-Jinja2-Syntax'
 Plug 'PProvost/vim-ps1'
@@ -173,41 +175,41 @@ if !has("gui_running")
 endif
 
 " intero-neovimhaskell
-augroup interMaps
-    au!
+"augroup interMaps
+    "au!
 
-    " Background processes and window management
-    au FileType haskell nnoremap <silent> <leader>is :InteroStart<CR>
-    au FileType haskell nnoremap <silent> <leader>ik :InteroKill<CR>
+    "" Background processes and window management
+    "au FileType haskell nnoremap <silent> <leader>is :InteroStart<CR>
+    "au FileType haskell nnoremap <silent> <leader>ik :InteroKill<CR>
 
-    " Open intero/ghci split horizontally
-    au FileType haskell nnoremap <silent> <leader>io :InteroOpen<CR>
-    " Open intero/ghci split vertically
-    au FileType haskell nnoremap <silent> <leader>iov :InteroOpen<CR><C-W>H
-    au FileType haskell nnoremap <silent> <leader>ih :InteroHide<CR>
+    "" Open intero/ghci split horizontally
+    "au FileType haskell nnoremap <silent> <leader>io :InteroOpen<CR>
+    "" Open intero/ghci split vertically
+    "au FileType haskell nnoremap <silent> <leader>iov :InteroOpen<CR><C-W>H
+    "au FileType haskell nnoremap <silent> <leader>ih :InteroHide<CR>
 
-    " Reloading
-    au BufWritePost *.hs InteroReload
+    "" Reloading
+    "au BufWritePost *.hs InteroReload
 
-    " Load individual modules
-    au FileType haskell nnoremap <silent> <leader>il :InteroLoadCurrentModule<CR>
-    au FileType haskell nnoremap <silent> <leader>if :InteroLoadCurrentFile<CR>
+    "" Load individual modules
+    "au FileType haskell nnoremap <silent> <leader>il :InteroLoadCurrentModule<CR>
+    "au FileType haskell nnoremap <silent> <leader>if :InteroLoadCurrentFile<CR>
 
-    " Type information
-    au FileType haskell map <silent> <leader>t <Plug>InteroGenericType
-    au FileType haskell map <silent> <leader>T <Plug>InteroType
-    au FileType haskell nnoremap <silent> <leader>it :InteroTypeInsert<CR>
+    "" Type information
+    "au FileType haskell map <silent> <leader>t <Plug>InteroGenericType
+    "au FileType haskell map <silent> <leader>T <Plug>InteroType
+    "au FileType haskell nnoremap <silent> <leader>it :InteroTypeInsert<CR>
     
-    " Navigation
-    au FileType haskell nnoremap <silent> <leader>jd :InteroGoToDef<CR>
+    "" Navigation
+    "au FileType haskell nnoremap <silent> <leader>jd :InteroGoToDef<CR>
 
-    " Managing targets
-    " Prompts you to enter targets (no silent):
-    au FileType haskell nnoremap <leader>ist :InteroSetTargets<SPACE>
-augroup END
+    "" Managing targets
+    "" Prompts you to enter targets (no silent):
+    "au FileType haskell nnoremap <leader>ist :InteroSetTargets<SPACE>
+"augroup END
 
-let g:intero_type_on_hover=1
-let g:intero_start_immediately=0
+"let g:intero_type_on_hover=1
+"let g:intero_start_immediately=0
 
 " Go
 let g:go_version_warning=0
@@ -263,7 +265,7 @@ noremap <Right> <Nop>
 " Colors
 if has("nvim") || has('gui')
     set background=dark
-    colors PaperColor
+    colors focuspoint
 endif
 
 " Mac-specific stuff
