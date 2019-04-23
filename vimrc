@@ -23,6 +23,7 @@ Plug 'mattn/emmet-vim'
 "if has('nvim') && !has('win32')
   "Plug 'neomake/neomake'
 "endif
+Plug 'justinmk/vim-gtfo'
 
 " Color Schemes
 "Plug 'rainglow/vim'
