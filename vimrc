@@ -266,7 +266,7 @@ noremap <Right> <Nop>
 " Colors
 if has("nvim") || has('gui')
     set background=dark
-    colors PaperColor
+    colors cosmic_latte
 endif
 
 " Mac-specific stuff
