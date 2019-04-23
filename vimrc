@@ -265,7 +265,7 @@ noremap <Right> <Nop>
 " Colors
 if has("nvim") || has('gui')
     set background=dark
-    colors focuspoint
+    colors PaperColor
 endif
 
 " Mac-specific stuff
