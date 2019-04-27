@@ -274,6 +274,8 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+set termguicolors
+
 " Colors
 set termguicolors
 if has("nvim") || has('gui')
