@@ -129,6 +129,8 @@ map <leader>p :w!!pf<CR>
 
 map <C-Tab> :bn!<CR>
 map <C-S-Tab> :bp!<CR>
+map <C-j> :bp!<CR>
+map <C-k> :bn!<CR>
 
 " Plugin Options
 
@@ -273,6 +275,7 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 
 " Colors
+set termguicolors
 if has("nvim") || has('gui')
     set background=dark
     colors base16-default-dark
