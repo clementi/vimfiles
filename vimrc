@@ -99,6 +99,9 @@ map <C-k> :bn!<CR>
 
 " Plugin Options
 
+"" Emmet
+let g:user_emmet_leader_key='<C-Z>'
+
 "" Syntastic
 function! ToggleErrors()
     let old_last_winnr = winnr('$')
