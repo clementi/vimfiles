@@ -19,7 +19,7 @@ call plug#begin()
     Plug 'mattn/emmet-vim'
     "Plug 'justinmk/vim-gtfo'
     Plug 'Shougo/deoplete.nvim'
-    Plug 'ervandew/supertab'
+    "Plug 'ervandew/supertab'
 
     " Color Schemes
     "Plug 'rainglow/vim'
