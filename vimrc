@@ -19,7 +19,7 @@ call plug#begin()
     Plug 'mattn/emmet-vim'
     "Plug 'justinmk/vim-gtfo'
     Plug 'Shougo/deoplete.nvim'
-    "Plug 'ervandew/supertab'
+    Plug 'ervandew/supertab'
 
     " Color Schemes
     "Plug 'rainglow/vim'
@@ -202,7 +202,7 @@ noremap <Right> <Nop>
 "set termguicolors
 if has("nvim") || has('gui')
     set background=dark
-    colors PaperColor
+    colors cosmic_latte
 endif
 
 " Mac-specific stuff
