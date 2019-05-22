@@ -1,7 +1,7 @@
 call plug#begin()
 
     " Tools & Settings
-    "Plug 'tpope/vim-sensible'
+    Plug 'tpope/vim-sensible'
     "Plug 'junegunn/fzf'
     Plug 'tpope/vim-surround'
     Plug 'airblade/vim-gitgutter'
@@ -18,7 +18,9 @@ call plug#begin()
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'mattn/emmet-vim'
     "Plug 'justinmk/vim-gtfo'
-    Plug 'Shougo/deoplete.nvim'
+    if has("nvim")
+        Plug 'Shougo/deoplete.nvim'
+    endif
     Plug 'ervandew/supertab'
 
     " Color Schemes
@@ -135,8 +137,10 @@ if !has("gui_running")
 endif
 
 " Deoplete
-let g:deoplete#enable_at_startup = 1
-call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*' })
+if has("nvim")
+    let g:deoplete#enable_at_startup = 1
+    call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*' })
+endif
 
 " Go
 let g:go_version_warning=0
