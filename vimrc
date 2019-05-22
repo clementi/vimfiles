@@ -14,13 +14,10 @@ call plug#begin()
     Plug 'editorconfig/editorconfig-vim'
     Plug 'tpope/vim-endwise'
     Plug 'jiangmiao/auto-pairs'
-    "Plug 'vim-scripts/AutoComplPop'
+    Plug 'vim-scripts/AutoComplPop'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'mattn/emmet-vim'
     "Plug 'justinmk/vim-gtfo'
-    if has("nvim")
-        Plug 'Shougo/deoplete.nvim'
-    endif
     Plug 'ervandew/supertab'
 
     " Color Schemes
@@ -134,12 +131,6 @@ let g:EditorConfig_core_mode = 'python_external'
 
 if !has("gui_running")
     set background=dark
-endif
-
-" Deoplete
-if has("nvim")
-    let g:deoplete#enable_at_startup = 1
-    call deoplete#custom#option('omni_patterns', { 'go': '[^. *\t]\.\w*' })
 endif
 
 " Go
