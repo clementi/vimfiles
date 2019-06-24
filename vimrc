@@ -126,9 +126,6 @@ map <C-n> :NERDTreeToggle<CR>
 set backupdir=$TEMP,$TMP,.
 set directory=$TEMP,$TMP,.
 
-" Editorconfig-vim
-let g:EditorConfig_core_mode = 'python_external'
-
 if !has("gui_running")
     set background=dark
 endif
