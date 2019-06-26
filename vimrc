@@ -123,8 +123,8 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 map <C-n> :NERDTreeToggle<CR>
 
 " Directories
-set backupdir=$TEMP,$TMP,.
-set directory=$TEMP,$TMP,.
+set backupdir=$TEMP,$TMP,$TMPDIR.
+set directory=$TEMP,$TMP,$TMPDIR.
 
 if !has("gui_running")
     set background=dark
