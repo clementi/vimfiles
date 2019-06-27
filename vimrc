@@ -28,6 +28,7 @@ call plug#begin()
 
     " Languages
     Plug 'neovimhaskell/haskell-vim'
+    Plug 'udalov/kotlin-vim'
     "Plug 'glench/Vim-Jinja2-Syntax'
     "Plug 'PProvost/vim-ps1'
     "Plug 'dart-lang/dart-vim-plugin'
