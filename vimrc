@@ -25,6 +25,7 @@ call plug#begin()
     Plug 'flazz/vim-colorschemes'
     Plug 'chriskempson/base16-vim'
     Plug 'nightsense/cosmic_latte'
+    Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
     " Languages
     Plug 'neovimhaskell/haskell-vim'
@@ -33,7 +34,7 @@ call plug#begin()
     "Plug 'PProvost/vim-ps1'
     "Plug 'dart-lang/dart-vim-plugin'
     "Plug 'hashivim/vim-terraform'
-    "Plug 'zah/nim.vim'
+    Plug 'zah/nim.vim'
     Plug 'fsharp/vim-fsharp'
     Plug 'pangloss/vim-javascript'
     "Plug 'clementi/pure-vim'
@@ -46,7 +47,7 @@ call plug#begin()
     Plug 'rgrinberg/vim-ocaml'
     Plug 'fatih/vim-go'
     Plug 'tomlion/vim-solidity'
-    "Plug 'keith/swift.vim'
+    Plug 'keith/swift.vim'
     "Plug 'posva/vim-vue'
     "Plug 'mxw/vim-jsx'
     "Plug 'mustache/vim-mustache-handlebars'
@@ -195,7 +196,7 @@ noremap <Right> <Nop>
 "set termguicolors
 if has("nvim") || has('gui')
     set background=dark
-    colors PaperColor
+    colors onehalfdark
 endif
 
 " Mac-specific stuff
