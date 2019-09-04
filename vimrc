@@ -196,7 +196,7 @@ noremap <Right> <Nop>
 "set termguicolors
 if has("nvim") || has('gui')
     set background=dark
-    colors hybrid_material
+    colors tender "hybrid-material
 endif
 
 " Mac-specific stuff
