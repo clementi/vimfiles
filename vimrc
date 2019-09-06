@@ -53,6 +53,7 @@ call plug#begin()
     "Plug 'mustache/vim-mustache-handlebars'
     "Plug 'tpope/vim-cucumber'
     Plug 'jponge/vim-golo'
+    Plug 'colinmcdonagh/vim-gosu'
 
     "" Elixir
     "Plug 'elixir-editors/vim-elixir'
