@@ -25,9 +25,14 @@ call plug#begin()
     Plug 'flazz/vim-colorschemes'
     Plug 'chriskempson/base16-vim'
     Plug 'nightsense/cosmic_latte'
+    Plug 'nightsense/snow'
+    Plug 'nightsense/vimspectr'
+    Plug 'nightsense/seabird'
     Plug 'sonph/onehalf', {'rtp': 'vim/'}
+    Plug 'blueshirts/darcula'
 
     " Languages
+    Plug 'ballerina-attic/plugin-vim'
     Plug 'neovimhaskell/haskell-vim'
     Plug 'udalov/kotlin-vim'
     "Plug 'glench/Vim-Jinja2-Syntax'
@@ -195,7 +200,7 @@ noremap <Right> <Nop>
 " Colors
 if has("nvim") || has('gui')
     set background=dark
-    colors onehalfdark "hybrid-material
+    colors cosmic_latte
     set termguicolors
 endif
 
