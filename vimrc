@@ -30,6 +30,7 @@ call plug#begin()
     Plug 'nightsense/seabird'
     Plug 'sonph/onehalf', {'rtp': 'vim/'}
     Plug 'blueshirts/darcula'
+    Plug 'tomasiser/vim-code-dark'
 
     " Languages
     Plug 'ballerina-attic/plugin-vim'
