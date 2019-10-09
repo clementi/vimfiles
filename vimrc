@@ -59,6 +59,7 @@ call plug#begin()
     "Plug 'mustache/vim-mustache-handlebars'
     "Plug 'tpope/vim-cucumber'
     Plug 'stevearc/vim-arduino'
+    Plug 'Procrat/oz.vim'
 
     "" Elixir
     "Plug 'elixir-editors/vim-elixir'
