@@ -31,6 +31,7 @@ call plug#begin()
     Plug 'sonph/onehalf', {'rtp': 'vim/'}
     Plug 'blueshirts/darcula'
     Plug 'tomasiser/vim-code-dark'
+    Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
     Plug 'ballerina-attic/plugin-vim'
