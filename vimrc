@@ -204,7 +204,7 @@ noremap <Right> <Nop>
 " Colors
 if has("nvim") || has('gui')
     set background=dark
-    colors cosmic_latte
+    colors hybrid
     set termguicolors
 endif
 
