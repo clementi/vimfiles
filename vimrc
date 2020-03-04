@@ -19,6 +19,7 @@ call plug#begin()
     Plug 'mattn/emmet-vim'
     "Plug 'justinmk/vim-gtfo'
     Plug 'ervandew/supertab'
+    Plug 'rr-/vim-hexdec'
 
     " Color Schemes
     "Plug 'rainglow/vim'
@@ -133,6 +134,11 @@ set noshowmode
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 map <C-n> :NERDTreeToggle<CR>
+
+"" vim-hexdec
+noremap gbh :Dec2Hex<CR>
+noremap gbd :Hex2Dec<CR>
+
 
 " Directories
 set backupdir=$TEMP,$TMP,$TMPDIR.
