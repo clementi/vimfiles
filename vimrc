@@ -40,7 +40,7 @@ call plug#begin()
     Plug 'neovimhaskell/haskell-vim'
     Plug 'udalov/kotlin-vim'
     "Plug 'glench/Vim-Jinja2-Syntax'
-    "Plug 'PProvost/vim-ps1'
+    Plug 'PProvost/vim-ps1'
     "Plug 'dart-lang/dart-vim-plugin'
     "Plug 'hashivim/vim-terraform'
     Plug 'zah/nim.vim'
