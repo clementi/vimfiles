@@ -35,6 +35,7 @@ call plug#begin()
     Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
+    Plug 'melrief/vim-frege-syntax'
     Plug 'jparise/vim-graphql'
     Plug 'ballerina-attic/plugin-vim'
     Plug 'neovimhaskell/haskell-vim'
