@@ -1,1 +1,1 @@
-autocmd BufRead,BufNewFile *.set filetype=nasm
+autocmd BufRead,BufNewFile *.nasm filetype=nasm
