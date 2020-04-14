@@ -37,6 +37,7 @@ call plug#begin()
     " Languages
     Plug 'melrief/vim-frege-syntax'
     Plug 'jparise/vim-graphql'
+    Plug 'martinda/Jenkinsfile-vim-syntax'
     Plug 'ballerina-attic/plugin-vim'
     Plug 'neovimhaskell/haskell-vim'
     Plug 'udalov/kotlin-vim'
