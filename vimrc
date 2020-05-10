@@ -134,6 +134,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0
 set noshowmode
 
+"" NERDcommenter
+let g:NERDCustomDelimiters = { 'fstar': { 'left': '(*', 'right': '*)' } }
+
 "" NERDTree
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
@@ -142,7 +145,6 @@ map <C-n> :NERDTreeToggle<CR>
 "" vim-hexdec
 noremap gbh :Dec2Hex<CR>
 noremap gbd :Hex2Dec<CR>
-
 
 " Directories
 set backupdir=$TEMP,$TMP,$TMPDIR.
