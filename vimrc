@@ -1,6 +1,7 @@
 call plug#begin()
 
     " Tools & Settings
+    Plug 'godlygeek/tabular'
     Plug 'tpope/vim-sensible'
     "Plug 'junegunn/fzf'
     Plug 'tpope/vim-surround'
