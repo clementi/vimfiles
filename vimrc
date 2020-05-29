@@ -11,6 +11,7 @@ call plug#begin()
     Plug 'preservim/nerdcommenter'
     Plug 'vim-syntastic/syntastic'
     Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     "Plug 'itchyny/lightline.vim'
     Plug 'editorconfig/editorconfig-vim'
     Plug 'tpope/vim-endwise'
@@ -134,7 +135,15 @@ nnoremap <silent> <leader>e :call ToggleErrors()<CR>
 
 "" Airline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 0
+if has('gui_running') || has('gui_vimr')
+    let g:airline_powerline_fonts = 1
+else
+    let g:airline_powerline_fonts = 0
+endif
+
+"" Airline Theme
+let g:airline_theme='hybridline'
+
 set noshowmode
 
 "" NERDcommenter
