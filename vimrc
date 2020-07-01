@@ -1,6 +1,7 @@
 call plug#begin()
 
     " Tools & Settings
+    " Plug 'zxqfl/tabnine-vim'
     Plug 'godlygeek/tabular'
     Plug 'tpope/vim-sensible'
     "Plug 'junegunn/fzf'
@@ -37,6 +38,8 @@ call plug#begin()
     Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
+    Plug 'artoj/pgn-syntax-vim'
+    Plug 'cespare/vim-toml'
     Plug 'FStarLang/VimFStar'
     Plug 'derekelkins/agda-vim'
     Plug 'melrief/vim-frege-syntax'
@@ -135,11 +138,11 @@ nnoremap <silent> <leader>e :call ToggleErrors()<CR>
 
 "" Airline
 let g:airline#extensions#tabline#enabled = 1
-if has('gui_running') || has('gui_vimr')
+" if has('gui_running') || has('gui_vimr')
     let g:airline_powerline_fonts = 1
-else
-    let g:airline_powerline_fonts = 0
-endif
+" else
+    " let g:airline_powerline_fonts = 0
+" endif
 
 "" Airline Theme
 let g:airline_theme='hybridline'
