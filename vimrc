@@ -39,6 +39,7 @@ call plug#begin()
 
     " Languages
     Plug 'artoj/pgn-syntax-vim'
+    Plug 'vim-scripts/sgf.vim'
     Plug 'cespare/vim-toml'
     Plug 'FStarLang/VimFStar'
     Plug 'derekelkins/agda-vim'
