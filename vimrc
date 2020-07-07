@@ -10,7 +10,7 @@ call plug#begin()
     Plug 'tpope/vim-fugitive'
     Plug 'preservim/nerdtree'
     Plug 'preservim/nerdcommenter'
-    Plug 'vim-syntastic/syntastic'
+    " Plug 'vim-syntastic/syntastic'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     "Plug 'itchyny/lightline.vim'
