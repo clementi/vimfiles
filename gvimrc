@@ -1,5 +1,5 @@
 if has('win32') && !has('nvim')
-  set guifont=SF\ Mono:h10
+  set guifont=JetBrains\ Mono:h10
 elseif has('macunix')
   if !has("gui_vimr")
     set guifont=Menlo:h13
