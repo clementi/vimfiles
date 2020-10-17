@@ -23,6 +23,7 @@ call plug#begin()
     "Plug 'justinmk/vim-gtfo'
     Plug 'ervandew/supertab'
     Plug 'rr-/vim-hexdec'
+    " Plug 'neoclide/coc.nvim'
 
     " Color Schemes
     "Plug 'rainglow/vim'
