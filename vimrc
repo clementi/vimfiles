@@ -76,6 +76,7 @@ call plug#begin()
     "Plug 'tpope/vim-cucumber'
     Plug 'stevearc/vim-arduino'
     Plug 'Procrat/oz.vim'
+    Plug 'rust-lang/rust.vim'
 
     "" Elixir
     "Plug 'elixir-editors/vim-elixir'
