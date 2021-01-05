@@ -59,7 +59,7 @@ call plug#begin()
     Plug 'zah/nim.vim'
     Plug 'fsharp/vim-fsharp'
     Plug 'pangloss/vim-javascript'
-    "Plug 'clementi/pure-vim'
+    Plug 'clementi/pure-vim'
     "Plug 'JuliaEditorSupport/julia-vim'
     "Plug 'ryym/vim-riot'
     Plug 'idris-hackers/idris-vim'
