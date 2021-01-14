@@ -235,7 +235,7 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 
 " Remove trailing whitespace in certain file types
-autocmd FileType haskell,scala,c,cpp,java,python,fsharp,fstar,ocaml,sml,csharp,json,jsonc,javascript,scheme,racket,clojure,lisp,d autocmd BufWritePre <buffer> %s/\s\+$//e
+autocmd FileType haskell,scala,c,cpp,java,python,fsharp,fstar,ocaml,sml,csharp,json,jsonc,javascript,scheme,racket,clojure,lisp,d,rust,go autocmd BufWritePre <buffer> %s/\s\+$//e
 
 " Colors
 if has("nvim") || has('gui')
