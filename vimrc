@@ -51,7 +51,7 @@ call plug#begin()
     Plug 'ballerina-attic/plugin-vim'
     Plug 'neovimhaskell/haskell-vim'
     Plug 'udalov/kotlin-vim'
-    Plug 'vale1410/vim-minizinc'
+    " Plug 'vale1410/vim-minizinc'
     "Plug 'glench/Vim-Jinja2-Syntax'
     Plug 'PProvost/vim-ps1'
     "Plug 'dart-lang/dart-vim-plugin'
