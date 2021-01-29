@@ -29,52 +29,52 @@ call plug#begin()
     "Plug 'rainglow/vim'
     Plug 'flazz/vim-colorschemes'
     Plug 'chriskempson/base16-vim'
-    Plug 'nightsense/cosmic_latte'
-    Plug 'nightsense/snow'
-    Plug 'nightsense/vimspectr'
-    Plug 'nightsense/seabird'
-    Plug 'sonph/onehalf', {'rtp': 'vim/'}
-    Plug 'blueshirts/darcula'
-    Plug 'tomasiser/vim-code-dark'
+    " Plug 'nightsense/cosmic_latte'
+    " Plug 'nightsense/snow'
+    " Plug 'nightsense/vimspectr'
+    " Plug 'nightsense/seabird'
+    " Plug 'sonph/onehalf', {'rtp': 'vim/'}
+    " Plug 'blueshirts/darcula'
+    " Plug 'tomasiser/vim-code-dark'
     Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
-    Plug 'artoj/pgn-syntax-vim'
-    Plug 'vim-scripts/sgf.vim'
+    " Plug 'artoj/pgn-syntax-vim'
+    " Plug 'vim-scripts/sgf.vim'
     Plug 'cespare/vim-toml'
     Plug 'FStarLang/VimFStar'
-    Plug 'derekelkins/agda-vim'
-    Plug 'melrief/vim-frege-syntax'
+    " Plug 'derekelkins/agda-vim'
+    " Plug 'melrief/vim-frege-syntax'
     Plug 'jparise/vim-graphql'
     Plug 'kevinoid/vim-jsonc'
     Plug 'martinda/Jenkinsfile-vim-syntax'
-    Plug 'ballerina-attic/plugin-vim'
+    " Plug 'ballerina-attic/plugin-vim'
     Plug 'neovimhaskell/haskell-vim'
-    Plug 'udalov/kotlin-vim'
+    " Plug 'udalov/kotlin-vim'
     " Plug 'vale1410/vim-minizinc'
     "Plug 'glench/Vim-Jinja2-Syntax'
     Plug 'PProvost/vim-ps1'
     "Plug 'dart-lang/dart-vim-plugin'
     "Plug 'hashivim/vim-terraform'
-    Plug 'zah/nim.vim'
+    " Plug 'zah/nim.vim'
     Plug 'fsharp/vim-fsharp'
     Plug 'pangloss/vim-javascript'
-    Plug 'clementi/pure-vim'
+    " Plug 'clementi/pure-vim'
     "Plug 'JuliaEditorSupport/julia-vim'
     "Plug 'ryym/vim-riot'
     Plug 'idris-hackers/idris-vim'
     "Plug 'the-lambda-church/coquille'
-    Plug 'kchmck/vim-coffee-script'
+    " Plug 'kchmck/vim-coffee-script'
     "Plug 'wlangstroth/vim-racket'
-    Plug 'rgrinberg/vim-ocaml'
+    " Plug 'rgrinberg/vim-ocaml'
     Plug 'fatih/vim-go'
     Plug 'tomlion/vim-solidity'
-    Plug 'keith/swift.vim'
+    " Plug 'keith/swift.vim'
     "Plug 'posva/vim-vue'
     "Plug 'mxw/vim-jsx'
     "Plug 'mustache/vim-mustache-handlebars'
     "Plug 'tpope/vim-cucumber'
-    Plug 'stevearc/vim-arduino'
+    " Plug 'stevearc/vim-arduino'
     " Plug 'Procrat/oz.vim'
     Plug 'rust-lang/rust.vim'
 
@@ -143,11 +143,7 @@ let g:user_emmet_leader_key='<C-Z>'
 
 "" Airline
 let g:airline#extensions#tabline#enabled = 1
-" if has('gui_running') || has('gui_vimr')
-    let g:airline_powerline_fonts = 1
-" else
-    " let g:airline_powerline_fonts = 0
-" endif
+let g:airline_powerline_fonts = 1
 
 "" Airline Theme
 let g:airline_theme='hybridline'
