@@ -236,9 +236,9 @@ noremap <Right> <Nop>
 autocmd FileType haskell,scala,c,cpp,java,python,fsharp,fstar,ocaml,sml,csharp,json,jsonc,javascript,scheme,racket,clojure,lisp,d,rust,go autocmd BufWritePre <buffer> %s/\s\+$//e
 
 " Colors
+set background=dark
+colors hybrid
 if has("nvim") || has('gui')
-    set background=dark
-    colors hybrid
     set termguicolors
 endif
 
