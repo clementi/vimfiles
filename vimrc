@@ -75,7 +75,7 @@ call plug#begin()
     "Plug 'mustache/vim-mustache-handlebars'
     "Plug 'tpope/vim-cucumber'
     Plug 'stevearc/vim-arduino'
-    Plug 'Procrat/oz.vim'
+    " Plug 'Procrat/oz.vim'
     Plug 'rust-lang/rust.vim'
 
     "" Elixir
@@ -89,6 +89,8 @@ call plug#begin()
     Plug 'leafgarland/typescript-vim'
     Plug 'Quramy/tsuquyomi'
     Plug 'Quramy/vim-js-pretty-template'
+
+    " Plug 'arrufat/vala.vim'
 
 call plug#end()
 
