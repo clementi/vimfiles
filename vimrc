@@ -50,7 +50,7 @@ call plug#begin()
     Plug 'martinda/Jenkinsfile-vim-syntax'
     " Plug 'ballerina-attic/plugin-vim'
     Plug 'neovimhaskell/haskell-vim'
-    " Plug 'udalov/kotlin-vim'
+    Plug 'udalov/kotlin-vim'
     " Plug 'vale1410/vim-minizinc'
     "Plug 'glench/Vim-Jinja2-Syntax'
     Plug 'PProvost/vim-ps1'
