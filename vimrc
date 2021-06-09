@@ -154,7 +154,8 @@ set noshowmode
 "" NERDcommenter
 let g:NERDSpaceDelims = 1
 let g:NERDCustomDelimiters = { 'fstar': { 'left': '(*', 'right': '*)' },
-                             \ 'jsonc': { 'left': '//', 'right': '' } }
+                             \ 'jsonc': { 'left': '//', 'right': '' },
+                             \ 'qs': { 'left': '//', 'right': '' } }
 
 "" NERDTree
 let g:NERDTreeDirArrowExpandable = '▸'
