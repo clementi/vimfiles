@@ -39,6 +39,7 @@ call plug#begin()
     Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
+    Plug 'lluchs/vim-wren'
     " Plug 'artoj/pgn-syntax-vim'
     " Plug 'vim-scripts/sgf.vim'
     Plug 'cespare/vim-toml'
