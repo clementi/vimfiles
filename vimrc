@@ -56,7 +56,7 @@ call plug#begin()
     "Plug 'glench/Vim-Jinja2-Syntax'
     Plug 'PProvost/vim-ps1'
     "Plug 'dart-lang/dart-vim-plugin'
-    "Plug 'hashivim/vim-terraform'
+    Plug 'hashivim/vim-terraform'
     Plug 'zah/nim.vim'
     Plug 'fsharp/vim-fsharp'
     Plug 'pangloss/vim-javascript'
