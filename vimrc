@@ -93,7 +93,6 @@ call plug#begin()
     Plug 'Quramy/vim-js-pretty-template'
 
     " Plug 'arrufat/vala.vim'
-
 call plug#end()
 
 syntax on
