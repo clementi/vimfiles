@@ -24,6 +24,7 @@ call plug#begin()
     Plug 'ervandew/supertab'
     Plug 'rr-/vim-hexdec'
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'phaazon/mind.nvim', {'branch': 'v2'}
 
     " Color Schemes
     "Plug 'rainglow/vim'
