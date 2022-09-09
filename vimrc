@@ -64,7 +64,7 @@ call plug#begin()
     " Plug 'clementi/pure-vim'
     Plug 'JuliaEditorSupport/julia-vim'
     "Plug 'ryym/vim-riot'
-    Plug 'idris-hackers/idris-vim'
+    " Plug 'idris-hackers/idris-vim'
     "Plug 'the-lambda-church/coquille'
     " Plug 'kchmck/vim-coffee-script'
     Plug 'wlangstroth/vim-racket'
