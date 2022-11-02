@@ -128,10 +128,17 @@ map <C-S-Tab> :bp!<CR>
 map <C-j> :bp!<CR>
 map <C-k> :bn!<CR>
 
+map <leader>s :call RemoveTrailingWhitespace()<CR>
+
 " Plugin Options
 
 "" Emmet
 let g:user_emmet_leader_key='<C-Z>'
+
+"" Remove trailing whitespace
+function RemoveTrailingWhitespace()
+    %s/\s\+$//e
+endfunction
 
 "" Syntastic
 " function! ToggleErrors()
@@ -237,7 +244,7 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 
 " Remove trailing whitespace in certain file types
-autocmd FileType haskell,scala,c,cpp,java,python,fsharp,fstar,ocaml,sml,csharp,json,jsonc,javascript,scheme,racket,clojure,lisp,d,rust,go autocmd BufWritePre <buffer> %s/\s\+$//e
+autocmd FileType haskell,scala,c,cpp,java,python,fsharp,fstar,ocaml,sml,csharp,json,jsonc,javascript,scheme,racket,clojure,lisp,d,rust,go autocmd BufWritePre <buffer> call RemoveTrailingWhitespace()
 
 " Colors
 set background=dark
