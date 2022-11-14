@@ -26,6 +26,7 @@ call plug#begin()
     " Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'phaazon/mind.nvim', {'branch': 'v2'}
     Plug 'machakann/vim-sandwich'
+    Plug 'dense-analysis/ale'
 
     " Color Schemes
     "Plug 'rainglow/vim'
