@@ -3,7 +3,7 @@ call plug#begin()
     " Tools & Settings
     Plug 'tpope/vim-sensible'
     Plug 'junegunn/fzf'
-    " Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-surround'
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'preservim/nerdtree'
@@ -15,11 +15,10 @@ call plug#begin()
     Plug 'jiangmiao/auto-pairs'
     Plug 'mattn/emmet-vim'
     " Plug 'phaazon/mind.nvim', {'branch': 'v2'}
-    Plug 'machakann/vim-sandwich'
+    " Plug 'machakann/vim-sandwich'
     " Plug 'dense-analysis/ale'
 
     " Color Schemes
-    Plug 'flazz/vim-colorschemes'
     Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
