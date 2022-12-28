@@ -1,44 +1,25 @@
 call plug#begin()
 
     " Tools & Settings
-    " Plug 'zxqfl/tabnine-vim'
-    Plug 'godlygeek/tabular'
     Plug 'tpope/vim-sensible'
-    "Plug 'junegunn/fzf'
-    Plug 'tpope/vim-surround'
+    Plug 'junegunn/fzf'
+    " Plug 'tpope/vim-surround'
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'preservim/nerdtree'
     Plug 'preservim/nerdcommenter'
-    " Plug 'vim-syntastic/syntastic'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-    "Plug 'itchyny/lightline.vim'
     Plug 'editorconfig/editorconfig-vim'
     Plug 'tpope/vim-endwise'
     Plug 'jiangmiao/auto-pairs'
-    Plug 'vim-scripts/AutoComplPop'
-    Plug 'ctrlpvim/ctrlp.vim'
     Plug 'mattn/emmet-vim'
-    "Plug 'justinmk/vim-gtfo'
-    Plug 'ervandew/supertab'
-    Plug 'rr-/vim-hexdec'
-    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'phaazon/mind.nvim', {'branch': 'v2'}
+    " Plug 'phaazon/mind.nvim', {'branch': 'v2'}
     Plug 'machakann/vim-sandwich'
-    Plug 'dense-analysis/ale'
+    " Plug 'dense-analysis/ale'
 
     " Color Schemes
-    "Plug 'rainglow/vim'
     Plug 'flazz/vim-colorschemes'
-    Plug 'chriskempson/base16-vim'
-    " Plug 'nightsense/cosmic_latte'
-    " Plug 'nightsense/snow'
-    " Plug 'nightsense/vimspectr'
-    " Plug 'nightsense/seabird'
-    " Plug 'sonph/onehalf', {'rtp': 'vim/'}
-    " Plug 'blueshirts/darcula'
-    " Plug 'tomasiser/vim-code-dark'
     Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
@@ -50,9 +31,9 @@ call plug#begin()
     " Plug 'FStarLang/VimFStar'
     " Plug 'derekelkins/agda-vim'
     " Plug 'melrief/vim-frege-syntax'
-    Plug 'jparise/vim-graphql'
-    Plug 'kevinoid/vim-jsonc'
-    Plug 'martinda/Jenkinsfile-vim-syntax'
+    " Plug 'jparise/vim-graphql'
+    " Plug 'kevinoid/vim-jsonc'
+    " Plug 'martinda/Jenkinsfile-vim-syntax'
     " Plug 'ballerina-attic/plugin-vim'
     Plug 'neovimhaskell/haskell-vim'
     " Plug 'udalov/kotlin-vim'
@@ -60,7 +41,7 @@ call plug#begin()
     "Plug 'glench/Vim-Jinja2-Syntax'
     Plug 'PProvost/vim-ps1'
     "Plug 'dart-lang/dart-vim-plugin'
-    Plug 'hashivim/vim-terraform'
+    " Plug 'hashivim/vim-terraform'
     " Plug 'zah/nim.vim'
     " Plug 'fsharp/vim-fsharp'
     Plug 'pangloss/vim-javascript'
@@ -70,7 +51,7 @@ call plug#begin()
     " Plug 'idris-hackers/idris-vim'
     "Plug 'the-lambda-church/coquille'
     " Plug 'kchmck/vim-coffee-script'
-    Plug 'wlangstroth/vim-racket'
+    " Plug 'wlangstroth/vim-racket'
     " Plug 'rgrinberg/vim-ocaml'
     Plug 'fatih/vim-go'
     Plug 'tomlion/vim-solidity'
@@ -82,7 +63,7 @@ call plug#begin()
     " Plug 'stevearc/vim-arduino'
     " Plug 'Procrat/oz.vim'
     Plug 'rust-lang/rust.vim'
-    Plug 'gootorov/q-sharp.vim'
+    " Plug 'gootorov/q-sharp.vim'
 
     "" Elixir
     " Plug 'elixir-editors/vim-elixir'
@@ -93,8 +74,8 @@ call plug#begin()
 
     "" Typescript
     Plug 'leafgarland/typescript-vim'
-    Plug 'Quramy/tsuquyomi'
-    Plug 'Quramy/vim-js-pretty-template'
+    " Plug 'Quramy/tsuquyomi'
+    " Plug 'Quramy/vim-js-pretty-template'
 
     " Plug 'arrufat/vala.vim'
 call plug#end()
