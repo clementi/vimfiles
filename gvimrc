@@ -7,6 +7,8 @@ set guioptions=
 if !has("gui_vimr")
   set lines=50
   set columns=120
+else
+  set guifont=JetBrains\ Mono:h13
 endif
 
 if has("gui") && has("win32") && !has("nvim")
