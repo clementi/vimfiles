@@ -22,6 +22,7 @@ call plug#begin()
     Plug 'rafi/awesome-vim-colorschemes'
 
     " Languages
+    Plug 'unisonweb/unison', { 'branch': 'trunk', 'rtp': 'editor-support/vim' }
     Plug 'ziglang/zig.vim'
     " Plug 'lluchs/vim-wren'
     " Plug 'artoj/pgn-syntax-vim'
