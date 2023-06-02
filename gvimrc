@@ -1,4 +1,4 @@
-set guifont=JetBrains\ Mono:h10
+set guifont=JetBrains\ Mono:h13
 
 set guioptions-=m
 set guioptions-=T
@@ -7,7 +7,9 @@ set guioptions=
 if !has("gui_vimr")
   set lines=50
   set columns=120
-else
+endif
+
+if g:gonvim_running
   set guifont=JetBrains\ Mono:h13
 endif
 
